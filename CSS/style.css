@@ -13,7 +13,7 @@ body {
   background: rgb(242, 239, 239);
 }
 .page {
-  width: 800px;
+  width: 1200px;
   height: 600px;
   padding: 20px;
   margin: auto;
@@ -40,8 +40,8 @@ h3 {
   justify-content: space-around;
   align-items: flex-start;
 }
-.ear-diagram {
-  width: 50%;
+.eye-diagram {
+  width: 30%;
   height: auto;
   z-index: 1;
   border-radius: 10px;
@@ -50,11 +50,12 @@ h3 {
 .ear-parts {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
 }
 .part {
   width: 120px;
-  padding: 4px;
+  padding: 5px;
+  margin-bottom: 20px;
   border: 2px solid #333;
   border-radius: 8px;
   background-color: #f0f0f0;
@@ -63,17 +64,19 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+  cursor: move;
 }
 .ear-parts2 {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
   z-index: 10;
 }
 .dropzone {
   position: relative;
   width: 120px;
-  padding: 4px;
+  padding: 5px;
+  margin-bottom: 20px;
   border: 2px dashed #555;
   border-radius: 8px;
   background-color: rgba(240, 240, 240, 0.8);
